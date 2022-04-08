@@ -1,0 +1,29 @@
+{
+  "name": "clase08-02-04-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ej5": "nodemon --inspect ./ej5/db.js",
+    "ej6": "nodemon --inspect ./ej6/db.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "har-validator": "^5.1.5",
+    "knex": "^1.0.5",
+    "mysql2": "^2.3.3",
+    "node-pre-gyp": "^0.17.0",
+    "request": "^2.88.2",
+    "sqlite": "^4.0.25",
+    "tar": "^6.1.11",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
+}
